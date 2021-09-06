@@ -181,8 +181,8 @@ Cum.Text = "Cum"
 Cum.TextColor3 = Color3.fromRGB(255, 255, 255)
 Cum.TextSize = 14.000
 Cum.MouseButton1Down:connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴🔴🔴🔴🔴🔴🔴","All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴","All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫⚫⚫⚫🔴⚫🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴","All")
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴⚫🔴","All")
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴⚫🔴⚫🔴","All")
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚫🔴🔴🔴🔴⚫🔴🔴⚫🔴⚫🔴🔴🔴⚫🔴","All")
