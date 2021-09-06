@@ -146,6 +146,7 @@ Close.TextSize = 52.000
 Close.MouseButton1Down:connect(function()
 	Main.Visible = false
 	OpenMain.Visible = true
+	OpenMainFRAME.Visible = true
 end)
 
 Fag.Name = "Fag"
@@ -210,4 +211,5 @@ OpenMain.Active = true
 OpenMain.MouseButton1Down:connect(function()
 	OpenMain.Visible = false
 	Main.Visible = true
+	OpenMainFRAME.Visible = false
 end)
